@@ -14,7 +14,7 @@ router.get('/', async (req, res) => {
 
 router.post('/', async (req, res) => {
   console.log(req.body);
-  res.json('success');
+  res.json(`Succefully created user ${req.body.firstName}, ${req.body.secondName}`)
 });
 
 router.get('/:id', async (req, res) => {

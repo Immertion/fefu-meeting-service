@@ -27,13 +27,17 @@ export default {
 	},
 	methods: {
 		async sendData() {
-      console.log(await axios.post(
+      axios.post(
         'http://localhost:8081/api/user',
         {
           firstName: this.firstName,
           secondName: this.secondName
         }
-      ));
+      )
+      .then(response => {
+        this.firstName = this.secondName = '';
+        alert(response.data);
+      });
 		}
 	}
 }
