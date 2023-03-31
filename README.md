@@ -1,24 +1,29 @@
-# fefu-meet-vue
+# Социальный сервис аякс.люди
 
-## Project setup
+**Программная инженерия 2023**
+
+**ДАЛЬНЕВОСТОЧНЫЙ ФЕДЕРАЛЬНЫЙ УНИВЕРСИТЕТ**
+**группа Б9121-09.03.03ПИКД**
+
+Курпас Артём Викторович
+Коканов Александр Владиславович
+Сербинович Матвей Денисович
+
+Документы находятся в директории `/docs`
+
+---
+
+## Установка зависимостей
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Запуск в режиме разработки
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Компилирование
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
